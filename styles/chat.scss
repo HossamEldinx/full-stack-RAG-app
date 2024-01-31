@@ -1,0 +1,31 @@
+.input-box{
+    .input{
+        background-color: rgb(61, 61, 61);
+        color: #fff;
+        border: 1px solid #5a5a5a;
+        &:focus{
+            border: 0px;
+            outline: 0;
+        }
+    }
+}
+.mark-down{
+    border-radius: 15px;
+    background-color: #020202;
+    font-size: 14px;
+}
+
+
+.chat-area{
+    background-color: #131314;
+    height: fit-content;
+}
+
+.more-question{
+    font-size: 12px;
+    transition: all 0.5s ease-in-out;
+     border: 1px solid #131314;
+    &:hover{
+        border: 1px solid #666666;
+    }
+}
